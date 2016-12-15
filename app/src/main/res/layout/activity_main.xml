@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.whn.whn.quickindex.QuickIndexBar
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:background="#FF1111"
+        android:layout_alignParentRight="true"
+        android:id="@+id/quickindexbar"/>
+
+    <TextView
+        android:id="@+id/tv_word"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="55sp"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+</RelativeLayout>
